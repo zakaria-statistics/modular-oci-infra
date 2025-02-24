@@ -1,0 +1,54 @@
+# Ignore Terraform state files
+*.tfstate
+*.tfstate.*
+
+# Ignore crash log files
+crash.log
+
+# Ignore Terraform variable files
+*.tfvars
+*.tfvars.json
+
+# Ignore override files
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Ignore plan output files
+tfplan
+*.tfplan
+
+# nohup.out
+nohup.out
+
+# Ignore .terraform directory
+.terraform/
+
+# Ignore .terragrunt-cache directory
+data-sources.tf
+
+# Ignore local .terraformrc and .terragrunt files
+.terraformrc
+.terragrunt
+
+# Ignore backup files
+*.backup
+
+# Ignore log files
+*.log
+
+# Ignore temporary files
+*.tmp
+*.swp
+*.bak
+*.old
+
+# Ignore IDE specific files
+.vscode/
+.idea/
+*.iml
+
+# Ignore OS generated files
+.DS_Store
+Thumbs.db
